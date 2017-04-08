@@ -197,7 +197,7 @@ Clearly moving the state out into a separate, completely isolated store is the d
 
 Having an isolated store is key in this scenario. We start by implementing our own little `BoardStore`, which is going to manage our `board`, `column` and `card` records.
 
-Our store can be a simple even emitted that also wraps some custom data:
+Our store can be a simple event emitter that also wraps some custom data:
 
 ```js
 class BoardStore {
@@ -330,3 +330,5 @@ This makes adding new components and possibly bigger changes to our application 
 
 - [Redux](http://redux.js.org/)
 - [Flux](https://facebook.github.io/flux/docs/overview.html)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/react-unidirectional-data'>Unidirectional Data</a> on Learn.co and start learning to code for free.</p>
